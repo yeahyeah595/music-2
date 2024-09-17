@@ -389,11 +389,11 @@ body
             </div>
             <div id="player-content">
                 <div id="album-art">
-                    <img src="" class="active" id="_1">
-                    <img src="" id="_2">
-                    <img src="" id="_3">
-                    <img src="" id="_4">
-                    <img src="" id="_5">
+                    <img src="https://github.com/yeahyeah595/music-2/blob/main/ANTONYMPH.jpg" class="active" id="_1">
+                    <img src="https://github.com/yeahyeah595/music-2/blob/main/Faster%20and%20Harder.jpg" id="_2">
+                    <img src="https://github.com/yeahyeah595/music-2/blob/main/m3wk4.jpg" id="_3">
+                    <img src="https://github.com/yeahyeah595/music-2/blob/main/TWEAKIN.jpg" id="_4">
+                    <img src="https://github.com/yeahyeah595/music-2/blob/main/Euphoria.jpg" id="_5">
                     <div id="buffer-box">Buffering ...</div>
                 </div>
                 <div id="player-controls">
@@ -424,7 +424,7 @@ body
   <script type="text/javascript">
     $(function()
 {
-    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['Antonymph','She With Me','Faster and Harder','04:02','Love Yourself: Answer'], trackNames = ['Antonymph','She With Me','Faster and Harder','04:02','Euphoria'], albumArtworks = ['_1','_2','_3','_4','_5'], trackUrl = ['https://raw.githubusercontent.com/saeju29/musicplayer/main/magicshop.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
+    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['Antonymph','Faster and Harder','04:02','Tweakin','Love Yourself: Answer'], trackNames = ['Antonymph','Faster and Harder','04:02','Tweakin','Euphoria'], albumArtworks = ['_1','_2','_3','_4','_5'], trackUrl = ['https://github.com/yeahyeah595/music-2/blob/main/ANTONYMPH%20-%20N1GHTC0R3%20M1X.mp3','https://github.com/yeahyeah595/music-2/blob/main/Faster%20and%20Harder%20-%20Mega%20Mix.mp3','https://github.com/yeahyeah595/music-2/blob/main/04_02.mp3','https://github.com/yeahyeah595/music-2/blob/main/TWEAKIN.mp3','https://github.com/yeahyeah595/music-2/blob/main/Euphoria.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 
     function playPause()
     {
